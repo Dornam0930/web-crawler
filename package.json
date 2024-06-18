@@ -1,0 +1,30 @@
+{
+  "name": "web-crawler",
+  "version": "1.0.0",
+  "description": "Crawls through a website to generate an internal links report",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "jest": {
+    "transform": {}
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dornam0930/web-crawler.git"
+  },
+  "author": "Brian Estes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dornam0930/web-crawler/issues"
+  },
+  "homepage": "https://github.com/Dornam0930/web-crawler#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "jsdom": "^24.1.0"
+  }
+}
